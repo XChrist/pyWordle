@@ -47,9 +47,8 @@ def compare(input_word: str, model_word: str) -> list[WordComparison]:
                     results.append(WordComparison.valid)
                 else:
                     results.append(WordComparison.exists)
-        elif input_char not in model_word:
-            results.append(WordComparison.invalid)
-        if input_char in model_word:
             if input_char not in used_chars.keys(): used_chars[input_char] = 0
             used_chars[input_char] += 1
+        else:
+            results.append(WordComparison.invalid)
     return results

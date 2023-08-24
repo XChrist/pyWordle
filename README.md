@@ -7,3 +7,5 @@ PyWordle is a command-line focused recreation of the popular online word puzzle 
 New York Time's ["Wordle"](https://www.nytimes.com/games/wordle)
 
 Kinkelin's ["WordleCompetition"](https://github.com/Kinkelin/WordleCompetition)
+
+Textualize's ["Rich"](https://github.com/Textualize/rich)
